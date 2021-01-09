@@ -17,9 +17,6 @@ export class Link {
     @Prop({ required: true })
     username: string;
 
-    @Prop({ default: 0 })
-    accessCount: number;
-
     @Prop({ default: false })
     isDeleted: boolean;
 }
